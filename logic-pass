@@ -1,0 +1,29 @@
+string = "hello world"
+
+string=(string[0:5])
+print(string)
+
+
+
+minnumber = int(input("Enter the min number : "))
+maxnumber = int(input("Enter the max number : "))
+for n in range(minnumber,maxnumber + 1):
+   if n > 1:
+       for i in range(2,n):
+           if (n % i) == 0:
+               break
+       else:
+           print(n)
+           
+           
+           
+           
+           
+           
+str1 = "Hello World"
+str_count1 = str1.count('o')  
+print("The count of 'o' is", str_count1)
+
+str_count2 = str1.count('o', 0,5)
+print("The count of 'o' usingstart/end is", str_count2
+           
